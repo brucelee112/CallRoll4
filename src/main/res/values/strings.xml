@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">test03</string>
+    <string name="app_dianming">点名啦！！！</string>
+    <string name="app_add">添加学生</string>
+    <string name="app_dian">点名</string>、
+    <string name="app_query">查询</string>
+    <string name="app_sno">学  号：</string>
+    <string name="app_sname">姓  名：</string>
+    <string name="app_class">行政班：</string>
+    <string name="app_tianjia">添加</string>
+    <string-array name="spingar">
+        <item>计科1401班</item>
+        <item>计科1402班</item>
+        <item>计科1403班</item>
+        <item>计科1404班</item>
+    </string-array>
+</resources>

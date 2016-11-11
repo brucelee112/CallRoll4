@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<FrameLayout
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:id="@+id/framelayout12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_above="@+id/button8">
+</FrameLayout>
+
+    <Button
+       android:layout_above="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="导入"
+        android:textSize="25dp"
+        android:id="@+id/button8" />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="25dp"
+        android:id="@+id/button9" />
+
+
+</RelativeLayout>
